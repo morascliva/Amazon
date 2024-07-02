@@ -1,0 +1,16 @@
+
+public class Product {
+String product;
+double price;
+double qty;
+
+
+void shop() {
+	System.out.println(this.product+" is being shopped");
+	
+}
+
+void cart() {
+	System.out.println(this.product+" is added to the cart");
+}
+}
