@@ -1,0 +1,13 @@
+
+public class AmazonApp {
+public static void main(String []args) {
+	Shopped s= new Shopped();
+	s.product="bag";
+	s.price=8000;
+	s.qty=2;
+	s.shop();
+	s.cart();
+	
+	
+}
+}
